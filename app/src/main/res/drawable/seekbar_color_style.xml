@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 未选中 -->
+    <item
+        android:id="@android:id/background"
+        android:height="2dp"
+        android:gravity="center_vertical"
+        android:drawable="@mipmap/seekbar_color_bg"/>
+    <!-- 中 -->
+    <item
+        android:id="@android:id/progress"
+        android:height="2dp"
+        android:gravity="center_vertical"
+        android:drawable="@mipmap/seekbar_color_bg"/>
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:height="2dp"
+        android:gravity="center_vertical"
+        android:drawable="@mipmap/seekbar_color_bg"/>
+</layer-list>
